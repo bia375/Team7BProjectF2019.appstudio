@@ -2,9 +2,9 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#33FFB8", 
   "backgroundimage": "", 
-  "borderColor": "", 
+  "borderColor": "#8181F7", 
   "borderStyle": "", 
   "borderWidth": "", 
   "cached_js": null, 
@@ -14,27 +14,18 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Home", 
+        "Form2", 
         "Elements", 
-        "hbrHome.json"
+        "Button1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Home", 
+        "Form2", 
         "Elements", 
-        "lblRecentNews.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Home", 
-        "Elements", 
-        "lblTotalSpent.json"
+        "Chart1.json"
       ]
     }
   ], 
@@ -44,7 +35,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Home", 
+  "id": "Form2", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -52,7 +43,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "Home.onshow()", 
+  "onshow": "Form2.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
