@@ -14,45 +14,9 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Home", 
+        "Calculator", 
         "Elements", 
-        "hbrHome.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Home", 
-        "Elements", 
-        "lblRecentNews.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Home", 
-        "Elements", 
-        "btnCreateBud.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Home", 
-        "Elements", 
-        "btnViewBud.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Home", 
-        "Elements", 
-        "txtStories.json"
+        "hbrCalc.json"
       ]
     }
   ], 
@@ -62,7 +26,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Home", 
+  "id": "Calculator", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -70,7 +34,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "Home.onshow()", 
+  "onshow": "Calculator.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

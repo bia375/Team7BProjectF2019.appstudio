@@ -14,7 +14,7 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Form2", 
+        "Chart", 
         "Elements", 
         "Button1.json"
       ]
@@ -23,9 +23,18 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Form2", 
+        "Chart", 
         "Elements", 
         "Chart1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "Chart", 
+        "Elements", 
+        "hbrChart.json"
       ]
     }
   ], 
@@ -35,7 +44,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form2", 
+  "id": "Chart", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -43,7 +52,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "Form2.onshow()", 
+  "onshow": "Chart.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

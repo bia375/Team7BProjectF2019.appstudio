@@ -54,15 +54,6 @@
         "Elements", 
         "lblExpNum.json"
       ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "Expenses", 
-        "Elements", 
-        "selBreakdown.json"
-      ]
     }
   ], 
   "class": "", 

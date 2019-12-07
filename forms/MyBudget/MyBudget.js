@@ -1,33 +1,39 @@
-
 hbrMyBud.onclick=function(s){
-      if (typeof(s) == "object") {
+    if (typeof(s) == "object") {
     return
     }
 switch(s) {
 case "Home":
     ChangeForm(Home)
     break
-case "":
-    ChangeForm()
+case "Calculator":
+    ChangeForm(Calculator)
+    break
+case "Expenses":
+    ChangeForm(Expenses)
+    break
+case "Chart":
+    ChangeForm(Chart)
     break
 }
 }
 
-
-
 MyBudget.onshow=function(){
   hbrMyBud.clear()
   hbrMyBud.addItem("Home")
-  hbrMyBud.addItem("")
+  hbrMyBud.addItem("Expenses")
+  hbrMyBud.addItem("Calculator")
+  hbrMyBud.addItem("Chart")
 }
 
 btnRawCalc.onclick=function(){
-  let rawEarnings = Number((inptEarnings.value) - (inptExpenses.value))
-  var finData = "INSERT INTO users (Income, Expenses) VALUES (" + '"' + income + '","' + expenses + '")'
-  req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=pjm42085&pass=missouri1107&database=375groupb7&query=" + finData)
-  lblRawOutput.value = `$${Number(rawEarnings)}`
+  let rawEarnings = Number(inptEarnings.value)-Number(inptExpenses.value)
+  lblRawOutput.value = `$${rawEarnings}`
 }
 
 btnBudNext.onclick=function(){
-  ChangeForm(Expenses)
+  let rawEarnings2 = Number(inptEarnings.value)-Number(inptExpenses.value)
+  lblRawNum.value = `$${rawEarnings2}`
+  lblExpNum.value = '$'+Number(inptExpenses.value)
+  ChangeForm()
 }
