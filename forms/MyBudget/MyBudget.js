@@ -35,5 +35,5 @@ btnBudNext.onclick=function(){
   let rawEarnings2 = Number(inptEarnings.value)-Number(inptExpenses.value)
   lblRawNum.value = `$${rawEarnings2}`
   lblExpNum.value = '$'+Number(inptExpenses.value)
-  ChangeForm()
+  ChangeForm(Expenses)
 }
