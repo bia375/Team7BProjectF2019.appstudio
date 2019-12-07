@@ -1,4 +1,3 @@
-
 btnLogin.onclick=function(){
      req1 = ""
     req1 = Ajax("https://radlab.creighton.edu/appStudio/authLDAP.php", "POST", "j_username=" + inptUser.value + "&j_password=" + inptPass.value);

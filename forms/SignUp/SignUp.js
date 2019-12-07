@@ -1,4 +1,3 @@
-
 btnCancel.onclick=function(){
   ChangeForm(Login)
 }

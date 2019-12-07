@@ -58,8 +58,16 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Form2", 
-            "Form2.json"
+            "Calculator", 
+            "Calculator.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Chart", 
+            "Chart.json"
           ]
         }
       ], 

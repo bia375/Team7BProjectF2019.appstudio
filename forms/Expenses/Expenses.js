@@ -1,4 +1,3 @@
-
 hbrExpenses.onclick=function(s){
   if (typeof(s) == "object") {
     return
@@ -10,12 +9,19 @@ case "Home":
 case "My Budget":
     ChangeForm(MyBudget)
     break
+case "Calculator":
+    ChangeForm(Calculator)
+    break
+case "Chart":
+    ChangeForm(Chart)
+    break
 }
 }
 
 Expenses.onshow=function(){
-  lblRawNum.value = lblRawNum.value
-  hbrMyBud.clear()
-  hbrMyBud.addItem("Home")
-  hbrMyBud.addItem("My Budget")
+  hbrExpenses.clear()
+  hbrExpenses.addItem("Home")
+  hbrExpenses.addItem("My Budget")
+  hbrExpenses.addItem("Calculator")
+  hbrExpenses.addItem("Chart")
 }
